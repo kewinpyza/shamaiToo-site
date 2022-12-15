@@ -15,6 +15,16 @@
     <!-- CSS Files  -->
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/app.css" />
+
+    <!-- Iconics Framework -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
     <header>
@@ -63,28 +73,124 @@
     </header>
 
     <main>
-      <section class="section-about">
+      <section id="section-about">
         <div class="section-container">
           <div class="about-text-box">
-            <h2>Pokochaj zdrowe jedzenie razem z nami</h2>
-            <p>
+            <span class="subheading">O nas</span>
+            <h2 class="section-heading">
+              Pokochaj zdrowe jedzenie razem z nami
+            </h2>
+            <p class="about-description">
               Hej, nazywamy się shamaiToo, Twój nowy dostawca zdrowej żywności.
-              Ciągle jesteś zbyt zajęty i brakuje Ci czasu na gotowanie? Chcesz
+              Jesteś ciągle zbyt zajęty i brakuje Ci czasu na gotowanie? Chcesz
               jeść zdrowo i smacznie? Pozwól nam się tym zająć i zadbać o
               Ciebie.
             </p>
           </div>
-          <div class="about-columns">
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+          <div class="features-box">
+            <div class="feature">
+              <ion-icon class="icon-feature" name="infinite-outline"></ion-icon>
+              <p class="feature-title">365 dni w roku</p>
+              <p class="feature-text">
+                Nie gotuj już nigdy samemu! Działamy każdego dnia w roku,
+                wliczając także święta.
+              </p>
+            </div>
+            <div class="feature">
+              <ion-icon class="icon-feature" name="pause-outline"></ion-icon>
+              <p class="feature-title">Wstrzymaj kiedy chcesz</p>
+              <p class="feature-text">
+                Wyjeżdzasz na urlop lub wakacje? Nic nie szkodzi, możesz
+                zapauzować dostawy w każdym momencie, a my zwrócimy Ci pieniądze
+                za niewykorzystane dni.
+              </p>
+            </div>
+            <div class="feature">
+              <ion-icon class="icon-feature" name="leaf-outline"></ion-icon>
+              <p class="feature-title">Ekologiczność</p>
+              <p class="feature-text">
+                Wszyscy nasi partnerzy działają w duchu eko, używając wyłącznie
+                pojemników wielokrotnego użytku do pakowania Twojego jedzenia w
+                celu dbania o środowisko.
+              </p>
+            </div>
+            <div class="feature">
+              <ion-icon
+                class="icon-feature"
+                name="nutrition-outline"
+              ></ion-icon>
+              <p class="feature-title">Lokalne i orgraniczne</p>
+              <p class="feature-text">
+                Wszystkie nasze posiłki są przygotowywane z produktów świeżych,
+                lokalnych i orgranicznych. Zwierzęta dorastają w naszych
+                hodowlach bez dodatku antybiotyków czy hormonów.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="section-companies">
+      <section id="section-how">
+        <div class="section-container">
+          <div class="how-text-box">
+            <span class="subheading">Jak to działa</span>
+            <h2 class="section-heading">Działanie w 4 prostych krokach</h2>
+          </div>
+          <div class="steps-box grid-4-col">
+            <div class="step-box">
+              <div class="step-number">1</div>
+              <div class="step-icon">
+                <img
+                  src="https://panel.bodychief.pl/files/boxes/small/157476810815ddd0dec84ad0082448206.svg"
+                  alt=""
+                />
+              </div>
+              <div class="step-content">
+                Znajdź odpowiednią dla siebie dietę z <span>oferty</span>
+              </div>
+            </div>
+            <div class="step-box">
+              <div class="step-number">2</div>
+              <div class="step-icon">
+                <img
+                  class="mobile-icon"
+                  src="https://panel.bodychief.pl/files/boxes/small/157476813215ddd0e041668a717406768.svg"
+                  alt=""
+                />
+              </div>
+              <div class="step-content">
+                Zamów przez <span>stronę</span>, <span>aplikację</span> lub
+                <span>zadzwoń</span> do nas
+              </div>
+            </div>
+            <div class="step-box">
+              <div class="step-number">3</div>
+              <div class="step-icon">
+                <img class="bag-icon" src="images/icons/paper-bag.png" alt="" />
+              </div>
+              <div class="step-content">
+                Otrzymujesz dostawę <span>pod same drzwi</span> o wybranej
+                godzinie
+              </div>
+            </div>
+            <div class="step-box">
+              <div class="step-number">4</div>
+              <div class="step-icon">
+                <img
+                  src="https://panel.bodychief.pl/files/boxes/small/157476829315ddd0ea597211607722533.svg"
+                  alt=""
+                />
+              </div>
+              <div class="step-content">
+                Cieszysz się <span>smacznym jedzeniem</span> i świetną sylwetką
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section-companies">
         <div class="companies-container">
-          <h2 class="heading-coop">Współpracujemy z</h2>
+          <span class="subheading">Nasi partnerzy</span>
+          <h2 class="section-heading">Współpracujemy z</h2>
           <div class="company-logos">
             <img src="images/logos/logo2.jpg" alt="" />
             <img src="images/logos/logo3.jpg" alt="" />
