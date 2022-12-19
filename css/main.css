@@ -265,7 +265,7 @@ h2::after {
   border-radius: 50%;
   margin-bottom: 2.4rem;
   position: relative;
-  left: 10%;
+  left: 20%;
 }
 
 .feature-title {
@@ -292,6 +292,7 @@ h2::after {
 
 .diet-container {
   color: inherit;
+  padding: ;
 }
 
 .diet {
@@ -305,22 +306,45 @@ h2::after {
   transform: translateY(-1.4rem);
   box-shadow: 5px 8px 12px 0 rgba(0, 0, 0, 0.12),
     10px 12px 28px 0 rgba(0, 0, 0, 0.06);
-  background-color: #96ef88;
+  background-color: #f7deb8;
   cursor: pointer;
 }
 
 .diet-content {
-  padding: 3.6rem;
+  padding: 3.6rem 2rem 4.2rem 2.8rem;
 }
 
 .diet-tag {
-  margin-bottom: 1.2rem;
+  margin-bottom: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 0.6rem;
 }
 
+.tag {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 100px;
+  font-weight: 700;
+}
+
+.tag-proteins {
+  background-color: #ad9bf6;
+}
+
+.tag-fats {
+  background-color: #aafd2f;
+}
+.tag-carbo {
+  background-color: #ec7171;
+}
+
 .diet-name {
-  font-size: 2.6rem;
-  font-weight: 600;
+  font-size: 3.4rem;
+  font-weight: 700;
+  text-align: center;
   margin-bottom: 2.8rem;
 }
 
@@ -329,6 +353,7 @@ h2::after {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  margin-left: 1.6rem;
 }
 
 .diet-feature {
@@ -341,7 +366,7 @@ h2::after {
 .fa-solid {
   height: 2.4rem;
   width: 2.4rem;
-  color: #cf6c15;
+  color: #cb6206;
 }
 
 .grid-3-col {
@@ -352,13 +377,17 @@ h2::after {
 }
 
 .diet-img {
-  width: 380px;
-  height: 280px;
+  width: 360px;
+  height: 260px;
   border-radius: 1.5rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   object-fit: cover;
 }
+
+/*******************/
+/* TESTIMONIALS SECTION  */
+/******************/
 
 /*******************/
 /* HOW WORK SECTION  */
