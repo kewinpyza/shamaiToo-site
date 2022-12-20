@@ -22,7 +22,7 @@ header {
       rgba(47, 47, 47, 0.72),
       rgba(47, 47, 47, 0.72)
     ),
-    url(../images/hero9.jpg);
+    url(../images/hero.jpg);
   background-size: cover;
 }
 
@@ -292,7 +292,6 @@ h2::after {
 
 .diet-container {
   color: inherit;
-  padding: ;
 }
 
 .diet {
@@ -390,8 +389,69 @@ h2::after {
 /******************/
 
 #section-testimonials {
-  color: #000;
-  
+  color: #252525;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(245, 242, 242),
+    rgb(197, 195, 195),
+    rgb(154, 154, 154)
+  );
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.gallery-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item > img {
+  display: block;
+  width: 100%;
+  opacity: 85%;
+  transition: all 0.5s ease;
+}
+
+.gallery-item > img:hover {
+  transform: scale(1.12);
+  opacity: 100%;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 4.4rem;
+  column-gap: 7.6rem;
+}
+
+.testimonials-container {
+  padding: 5.6rem;
+}
+
+.testimonial > img {
+  width: 7.2rem;
+  border-radius: 50%;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-text {
+  font-size: 1.6rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.7;
+  font-weight: 500;
+}
+
+.testimonial-name {
+  font-size: 1.4rem;
+  font-style: italic;
+  color: #f5f5f5;
 }
 
 /*******************/
@@ -400,7 +460,7 @@ h2::after {
 
 #section-how {
   color: #000;
-  padding: 5.6rem 0 3.2rem 0;
+  padding: 9.6rem 0;
 }
 
 .grid-4-col {
