@@ -135,6 +135,7 @@
           </div>
         </div>
       </section>
+
       <section id="section-select">
         <div class="section-container">
           <div class="section-text-box">
@@ -508,6 +509,18 @@
           </div>
         </div>
       </section>
+      <section id="section-companies">
+        <div class="companies-container">
+          <span class="subheading">Nasi partnerzy</span>
+          <h2 class="section-heading">Współpracujemy z</h2>
+          <div class="company-logos">
+            <img src="images/logos/logo2.jpg" alt="" />
+            <img src="images/logos/logo3.jpg" alt="" />
+            <img src="images/logos/logo4.png" alt="" />
+            <img src="images/logos/logo6.png" alt="" />
+          </div>
+        </div>
+      </section>
       <section id="section-how">
         <div class="section-container">
           <div class="section-text-box">
@@ -660,16 +673,92 @@
           </div>
         </div>
       </section>
+      <section id="section-cta">
+        <div class="section-container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="section-heading">Skorzystaj z 1 dnia próbnego</h2>
+              <p class="cta-text">
+                Zastanawiasz się czy dieta jest dla Ciebie i czy przypadnie Ci
+                do gustu? Skorzystaj z całkowicie darmowego dnia próbnego, aby
+                sprawdzić to samemu! :)
+              </p>
 
-      <section id="section-companies">
-        <div class="companies-container">
-          <span class="subheading">Nasi partnerzy</span>
-          <h2 class="section-heading">Współpracujemy z</h2>
-          <div class="company-logos">
-            <img src="images/logos/logo2.jpg" alt="" />
-            <img src="images/logos/logo3.jpg" alt="" />
-            <img src="images/logos/logo4.png" alt="" />
-            <img src="images/logos/logo6.png" alt="" />
+              <form action="#" class="cta-form">
+                <div>
+                  <label for="full-name">Imię i nazwisko</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    name="full-name"
+                    placeholder="Adam Kowalski"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">E-mail</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="adam.kowalski@gmail.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="address">Adres dostawy</label>
+                  <input
+                    type="text"
+                    id="address"
+                    name="address"
+                    placeholder="Pawia 37/102, Warszawa"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="phone">Telefon kontaktowy</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="501-202-785"
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="select-where">Gdzie nas znalazłeś?</label>
+                  <select name="select-where" id="select-where">
+                    <option value="">Wybierz jedną opcję:</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="youtube">Youtube</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="ad">Reklama</option>
+                    <option value="friends">Rodzina lub przyjaciele</option>
+                    <option value="other">Inne</option>
+                  </select>
+                </div>
+                <div class="newsletter-box">
+                  <label for="newsletter">Zapisz do Newslettera</label>
+                  <input type="checkbox" name="newsletter" id="newsletter" />
+                </div>
+                <div>
+                  <label for="message">Zostaw nam wiadomość</label>
+                  <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Twoja wiadomość..."
+                  ></textarea>
+                </div>
+
+                <button class="btn btn-form">Wpisz się</button>
+              </form>
+            </div>
+            <div
+              class="cta-img"
+              aria-label="Woman enjoying food"
+              role="img"
+            ></div>
           </div>
         </div>
       </section>
