@@ -563,7 +563,6 @@ h2::after {
     rgb(253, 197, 118),
     rgb(209, 118, 0)
   );
-  overflow: hidden;
 }
 
 .cta-text-box {
@@ -664,4 +663,16 @@ h2::after {
 .btn-form:hover {
   background-color: #ffffff;
   color: #4e4e4e;
+}
+
+/*******************/
+/* FOOTER  */
+/******************/
+
+footer {
+  color: #000;
+}
+
+.footer-logo-img {
+  height: 12rem;
 }
