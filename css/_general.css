@@ -1,0 +1,172 @@
+/* GENERAL SETTINGS  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 47, 47, 0.72),
+      rgba(47, 47, 47, 0.72)
+    ),
+    url(../images/hero.jpg);
+  background-size: cover;
+}
+
+/* CONTAINERS */
+.container {
+  max-width: 100rem;
+  width: 60%;
+  margin-left: 15rem;
+  padding: 4rem;
+}
+
+.section-container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* HEADINGS  */
+.main-heading {
+  font-weight: 700;
+  font-size: 6rem;
+  margin-bottom: 3rem;
+  line-height: 1.1;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 4.2rem;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+  color: #000;
+  text-align: center;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 4.4rem;
+}
+
+h2::after {
+  content: "";
+  background-color: #d06b0b;
+  height: 3px;
+  width: 80px;
+  margin: 2.6rem auto 0;
+  display: block;
+}
+
+.subheading {
+  display: block;
+  color: #d06b0b;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
+/* GRID COLUMNS  */
+.grid-3-col {
+  display: grid;
+  column-gap: 6rem;
+  row-gap: 8rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-col {
+  display: grid;
+  column-gap: 5rem;
+  row-gap: 10rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* BUTTONS AND LINKS  */
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+
+  border: none;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 1.5rem 3rem;
+  cursor: pointer;
+  margin-right: 1.8rem;
+  transition: all 0.4s ease;
+}
+
+.btn-start:link,
+.btn-start:visited {
+  background-color: #db9636;
+  color: #fff;
+}
+
+.btn-start:hover,
+.btn-start:active {
+  background-color: #d06b0b;
+}
+
+.btn-info:link,
+.btn-info:visited {
+  background-color: #aeaeae;
+  color: #282828;
+}
+
+.btn-info:hover,
+.btn-info:active {
+  background-color: #e5e5e5;
+}
+
+.btn-form {
+  background-color: #573110;
+  color: #fdf2e9;
+  align-self: center;
+  padding: 1.8rem;
+  margin-left: 2rem;
+  transition: all 0.7s ease;
+}
+
+.btn-form:hover {
+  background-color: #ffffff;
+  color: #4e4e4e;
+}
+
+.footer-links {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #4c4c4c;
+  transition: all 0.4s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #0f14ae;
+  text-decoration: underline;
+}

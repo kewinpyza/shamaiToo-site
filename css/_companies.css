@@ -1,0 +1,19 @@
+/* COMPANIES SECTION  */
+#section-companies {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.companies-container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.company-logos img {
+  height: 5.5rem;
+  opacity: 90%;
+}
+
+.company-logos {
+  display: flex;
+  justify-content: space-around;
+}
