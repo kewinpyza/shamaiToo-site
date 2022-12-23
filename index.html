@@ -57,6 +57,13 @@
       src="https://kit.fontawesome.com/675709e2b0.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- JS File  -->
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="script/script.js"></script>
   </head>
   <body>
     <header>
@@ -77,9 +84,14 @@
             </li>
           </ul>
         </div>
+
+        <button class="btn-hamburger">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </nav>
 
-      <div class="container">
+      <div class="container" id="section-hero">
         <div class="text-box">
           <h1 class="main-heading">
             Zdrowe, pyszne jedzenie, które dostarczymy do Ciebie każdego dnia
