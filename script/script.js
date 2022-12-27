@@ -1,7 +1,7 @@
 "use strict";
 
 // Navigation on mobile app
-const headerNav = document.querySelector("#header-nav");
+const headerNav = document.querySelector(".header-nav");
 const hamburgerMenu = document.querySelector(".btn-hamburger");
 
 hamburgerMenu.addEventListener("click", () => {
@@ -35,7 +35,7 @@ allLinks.forEach((link) => {
 });
 
 // Make navigation sticky
-const heroSection = document.querySelector("#section-hero");
+const heroSection = document.querySelector(".section-hero");
 
 const obs = new IntersectionObserver(
   (entries) => {
@@ -54,10 +54,10 @@ const obs = new IntersectionObserver(
     // In the viewport
     root: null,
     threshold: 0,
-    rootMargin: "-80px",
+    rootMargin: "-96px",
   }
 );
-obs.observe(sectionHeroEl);
+obs.observe(heroSection);
 
 // Fixing flexbox gap property which is missing in some Safaris
 function checkFlexGap() {
