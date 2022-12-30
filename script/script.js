@@ -159,6 +159,7 @@ const lactoseFreeDiet = {
   price: "40,09",
 };
 
+// Array of all diets
 const dietsArr = [
   standardDiet,
   ketoDiet,

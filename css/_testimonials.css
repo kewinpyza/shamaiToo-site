@@ -9,7 +9,7 @@
   );
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 42fr 58fr;
 }
 
 .gallery-box {
@@ -40,6 +40,7 @@
   grid-template-columns: 1fr 1fr;
   row-gap: 4.4rem;
   column-gap: 7.6rem;
+  margin-top: 6.4rem;
 }
 
 .testimonials-container {

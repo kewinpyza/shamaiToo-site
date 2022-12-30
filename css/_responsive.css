@@ -1,0 +1,242 @@
+/* MEDIA QUERIES - RESPONSIVE WEBSITE  */
+
+/**************************/
+/* BELOW 1260px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 1320px) {
+  html {
+    font-size: 9px;
+  }
+  .container {
+    padding-left: 2rem;
+  }
+  .amount-users {
+    margin-top: 6rem;
+    gap: 1.6rem;
+  }
+  .grid-3-col {
+    column-gap: 4rem;
+    row-gap: 5rem;
+  }
+  .gallery-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .diet-container {
+    padding: 0 2rem;
+  }
+  .features-box {
+    padding: 0 2rem;
+  }
+  .steps-box {
+    padding: 0 2rem;
+  }
+  .testimonials {
+    margin-top: 10rem;
+  }
+}
+
+/**************************/
+/* BELOW 1020px (Tablets) */
+/**************************/
+
+@media (max-width: 1020px) {
+  html {
+    font-size: 8px;
+  }
+
+  .container {
+    width: 85%;
+    margin-left: 0;
+    padding: 6rem 10rem;
+  }
+
+  .grid-4-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet-content {
+    padding: 2.4rem 2.8rem 2.8rem 2.8rem;
+  }
+
+  .grid-footer {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .nav-column {
+    grid-row: 1;
+    grid-column: span 1;
+  }
+
+  .payments-column {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+
+  .logo-column,
+  .address-column {
+    grid-column: span 2;
+  }
+
+  .footer-logo {
+    margin: 0 2rem 2rem;
+  }
+
+  .media-links {
+    justify-content: flex-start;
+    margin-left: 1.6rem;
+  }
+
+  .copyright {
+    padding-left: 0;
+  }
+
+  .testimonials {
+    margin-top: 3.2rem;
+  }
+
+  footer > .section-container {
+    padding: 0 3.2rem;
+  }
+}
+
+@media (max-width: 876px) {
+  .main-heading {
+    font-size: 5.4rem;
+  }
+
+  .hero-description {
+    font-size: 2rem;
+  }
+
+  .amount-users-text {
+    font-size: 1.8rem;
+  }
+
+  .section-heading {
+    font-size: 3.6rem;
+  }
+
+  .subheading {
+    font-size: 1.4rem;
+  }
+
+  .step-content {
+    font-size: 2rem;
+  }
+
+  .company-logos img {
+    height: 4.6rem;
+  }
+
+  .about-description {
+    font-size: 2rem;
+  }
+
+  .grid-3-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .diet-feature {
+    font-size: 2rem;
+  }
+
+  .tag {
+    font-size: 1.1rem;
+  }
+
+  .features-box {
+    flex-wrap: wrap;
+  }
+
+  .feature {
+    width: 48%;
+    margin-bottom: 3.6rem;
+  }
+
+  .icon-feature {
+    left: 0;
+    margin-bottom: 3.2rem;
+  }
+
+  #section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-box {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .testimonial-text {
+    font-size: 1.8rem;
+  }
+
+  .testimonial-name {
+    font-size: 1.6rem;
+  }
+
+  .cta {
+    grid-template-columns: 6fr 4fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+
+  /* MOBILE NAVIGATION */
+  .btn-hamburger {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease-in;
+
+    /* 1) Hide it visually */
+    opacity: 0;
+
+    /* 2) Make it unaccessible to keyboard or mouse events */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 4.4rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3rem;
+  }
+}

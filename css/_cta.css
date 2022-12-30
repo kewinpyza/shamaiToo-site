@@ -48,6 +48,8 @@
     url(../images/woman-eating.jpg);
   background-size: cover;
   background-position: center;
+  border-top-right-radius: 1.6rem;
+  border-bottom-right-radius: 1.6rem;
 }
 
 .cta-form {
@@ -75,6 +77,10 @@
   border: none;
   background-color: #ffdfc4;
   box-shadow: 0 0.5rem 0.8rem rgba(0, 0, 0, 0.3);
+}
+
+.cta-form textarea {
+  height: 9.6rem;
 }
 
 .newsletter-box label {
