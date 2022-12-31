@@ -263,6 +263,10 @@
     font-size: 5rem;
   }
 
+  .header-nav {
+    padding-left: 2rem;
+  }
+
   .hero-description {
     font-size: 1.8rem;
   }
@@ -352,5 +356,40 @@
   .download-box {
     flex-wrap: wrap;
     gap: 1.2rem;
+  }
+}
+
+/**************************/
+/* Fixing some Safari flexbox gap */
+/**************************/
+
+.no-flexbox-gap .nav-links li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+
+.no-flexbox-gap .users-avatar {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .diet-feature:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.no-flexbox-gap .fa-solid {
+  margin-right: 1.6rem;
+}
+
+.no-flexbox-gap .media-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+
+.no-flexbox-gap .footer-links li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 876px) {
+  .no-flexbox-gap .nav-links li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 6.4rem;
   }
 }
