@@ -246,7 +246,7 @@ allLinks.forEach((link) => {
 
     // Close mobile navi
     if (link.classList.contains("nav-link")) {
-      headerNav.classList.toggle("nav-open");
+      headerNav.classList.toggle("open-nav");
     }
   });
 });
@@ -289,7 +289,6 @@ function checkFlexGap() {
   document.body.appendChild(flex);
   const isSupported = flex.scrollHeight === 1;
   flex.parentNode.removeChild(flex);
-  // console.log(isSupported);
 
   if (!isSupported) document.body.classList.add("no-flexbox-gap");
 }

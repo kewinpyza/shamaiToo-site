@@ -46,9 +46,9 @@
   }
 
   .container {
-    width: 85%;
+    width: 88%;
     margin-left: 0;
-    padding: 6rem 10rem;
+    padding: 6rem 8rem;
   }
 
   .grid-4-col {
@@ -99,6 +99,10 @@
     padding: 0 3.2rem;
   }
 }
+
+/**************************/
+/* BELOW 876px (Smaller Tablet Screens) */
+/**************************/
 
 @media (max-width: 876px) {
   .main-heading {
@@ -183,6 +187,10 @@
     grid-template-columns: 1fr;
   }
 
+  .btn-start {
+    margin-bottom: 1.2rem;
+  }
+
   /* MOBILE NAVIGATION */
   .btn-hamburger {
     display: block;
@@ -190,7 +198,7 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(70, 70, 70, 0.85);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(10px);
     position: absolute;
@@ -203,7 +211,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.4s ease-in;
 
     /* 1) Hide it visually */
     opacity: 0;
@@ -215,28 +223,134 @@
     visibility: hidden;
   }
 
-  .nav-open .main-nav {
+  .open-nav .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .open-nav .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .open-nav .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
   .nav-links {
     flex-direction: column;
-    gap: 4.4rem;
+    gap: 6.4rem;
   }
 
   .nav-link:link,
   .nav-link:visited {
-    font-size: 3rem;
+    font-size: 3.2rem;
+  }
+
+  .nav-link.nav-try:link,
+  .nav-link.nav-try:visited {
+    font-size: 2.8rem;
+  }
+}
+
+/**************************/
+/* BELOW 636px (Phones) */
+/**************************/
+
+@media (max-width: 636px) {
+  .main-heading {
+    font-size: 5rem;
+  }
+
+  .hero-description {
+    font-size: 1.8rem;
+  }
+
+  .amount-users-text {
+    font-size: 1.6rem;
+  }
+
+  .container {
+    width: 100%;
+    padding: 6rem;
+  }
+
+  .grid-3-col {
+    grid-template-columns: 1fr;
+  }
+
+  .diet-content {
+    padding: 3.2rem 3.6rem 3.6rem 4.2rem;
+  }
+
+  .diet-feature {
+    font-size: 2.2rem;
+  }
+
+  .diet-name {
+    font-size: 4.2rem;
+  }
+
+  .tag {
+    font-size: 1.4rem;
+  }
+
+  .diet-tag {
+    margin-bottom: 2.4rem;
+  }
+
+  .company-logos img {
+    height: 4rem;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .gallery-box {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.8rem;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  #section-cta {
+    padding-top: 8rem;
+  }
+
+  .cta {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-img {
+    grid-row: 1;
+    height: 44rem;
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 1.6rem;
+  }
+
+  .cta-text-box {
+    padding: 3.2rem;
+  }
+
+  .cta-form label {
+    font-size: 1.8rem;
+  }
+
+  .btn-form {
+    margin: 1.8rem 0 0.8rem;
+  }
+
+  .grid-4-col {
+    grid-template-columns: 1fr;
+  }
+
+  .download-box {
+    flex-wrap: wrap;
+    gap: 1.2rem;
   }
 }
