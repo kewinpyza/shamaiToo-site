@@ -357,14 +357,28 @@
     flex-wrap: wrap;
     gap: 1.2rem;
   }
+
+  .grid-footer {
+    column-gap: 4.4rem;
+  }
 }
 
 /**************************/
-/* Fixing some Safari flexbox gap */
+/* BELOW 356px (Small Phones) */
 /**************************/
 
-.no-flexbox-gap .nav-links li:not(:last-child) {
-  margin-right: 4.8rem;
+@media (max-width: 384px) {
+  footer > .section-container {
+    padding: 0 2rem;
+  }
+
+  .grid-footer {
+    column-gap: 2.8rem;
+  }
+
+  .payment-img {
+    height: 3.2rem;
+  }
 }
 
 .no-flexbox-gap .users-avatar {
