@@ -259,11 +259,11 @@ const obs = new IntersectionObserver(
     const ent = entries[0];
     // console.log(ent);
 
-    if (ent.isIntersecting === false) {
+    if (!ent.isIntersecting) {
       document.body.classList.add("sticky");
     }
 
-    if (ent.isIntersecting === true) {
+    if (ent.isIntersecting) {
       document.body.classList.remove("sticky");
     }
   },
