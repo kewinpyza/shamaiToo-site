@@ -381,6 +381,10 @@
   }
 }
 
+/**************************/
+/* Fixing some Safari flexbox gap */
+/**************************/
+
 .no-flexbox-gap .users-avatar {
   margin-right: 1.6rem;
 }

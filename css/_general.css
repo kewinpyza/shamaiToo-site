@@ -17,6 +17,15 @@ body {
   color: #fff;
 }
 
+.section {
+  transition: all 1s ease;
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
 /* MOBILE */
 .btn-hamburger {
   border: none;
