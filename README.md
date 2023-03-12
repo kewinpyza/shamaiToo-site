@@ -12,11 +12,11 @@
 
 ## Screenshots
 
-![image](https://raw.githubusercontent.com/kewinpyza/Guess-Number-Game/main/screenshots/screen1.png)
-![image](https://raw.githubusercontent.com/kewinpyza/Guess-Number-Game/main/screenshots/screen2.png)
-![image](https://raw.githubusercontent.com/kewinpyza/Guess-Number-Game/main/screenshots/screen3.png)
-![image](https://raw.githubusercontent.com/kewinpyza/Guess-Number-Game/main/screenshots/mobile1.png)
-![image](https://raw.githubusercontent.com/kewinpyza/Guess-Number-Game/main/screenshots/mobile2.png)
+![image](https://raw.githubusercontent.com/kewinpyza/shamaiToo-site/main/screenshots/screen1.png)
+![image](https://raw.githubusercontent.com/kewinpyza/shamaiToo-site/main/screenshots/screen2.png)
+![image](https://raw.githubusercontent.com/kewinpyza/shamaiToo-site/main/screenshots/screen3.png)
+<img src="https://raw.githubusercontent.com/kewinpyza/shamaiToo-site/main/screenshots/mobile1.png" alt="mobile-screen" height="500"/>
+<img src="https://raw.githubusercontent.com/kewinpyza/shamaiToo-site/main/screenshots/mobile2.png" alt="mobile-screen" height="500"/>
 
 ## Tech Stack
 
