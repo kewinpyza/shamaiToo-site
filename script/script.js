@@ -5,7 +5,7 @@ const dietContainer = document.querySelector(".diet-container");
 // Diet objects
 const standardDiet = {
   name: "Standard",
-  imgUrl: "standard.jpg",
+  imgUrl: "standard.webp",
   protein: 20,
   fats: 25,
   carbo: 55,
@@ -18,7 +18,7 @@ const standardDiet = {
 
 const ketoDiet = {
   name: "Keto",
-  imgUrl: "keto.png",
+  imgUrl: "keto.webp",
   protein: 15,
   fats: 80,
   carbo: 5,
@@ -31,7 +31,7 @@ const ketoDiet = {
 
 const wegeDiet = {
   name: "Wege",
-  imgUrl: "vege.jpg",
+  imgUrl: "vege.webp",
   protein: 15,
   fats: 30,
   carbo: 55,
@@ -44,7 +44,7 @@ const wegeDiet = {
 
 const ketoWegeDiet = {
   name: "Keto Wege",
-  imgUrl: "keto-vege.jpg",
+  imgUrl: "keto-vege.webp",
   protein: 15,
   fats: 80,
   carbo: 5,
@@ -57,7 +57,7 @@ const ketoWegeDiet = {
 
 const lowIgDiet = {
   name: "Low IG",
-  imgUrl: "lowig.jpg",
+  imgUrl: "lowig.webp",
   protein: 20,
   fats: 35,
   carbo: 45,
@@ -70,7 +70,7 @@ const lowIgDiet = {
 
 const slimDiet = {
   name: "Redukcyjna",
-  imgUrl: "slim.png",
+  imgUrl: "slim.webp",
   protein: 20,
   fats: 30,
   carbo: 50,
@@ -83,7 +83,7 @@ const slimDiet = {
 
 const sportDiet = {
   name: "Sport",
-  imgUrl: "sport.png",
+  imgUrl: "sport.webp",
   protein: 20,
   fats: 20,
   carbo: 60,
@@ -96,7 +96,7 @@ const sportDiet = {
 
 const homeDiet = {
   name: "Home",
-  imgUrl: "home.jpg",
+  imgUrl: "home.webp",
   protein: 15,
   fats: 30,
   carbo: 55,
@@ -109,7 +109,7 @@ const homeDiet = {
 
 const officeDiet = {
   name: "Office Box",
-  imgUrl: "office.jpg",
+  imgUrl: "office.webp",
   protein: 15,
   fats: 30,
   carbo: 55,
@@ -122,7 +122,7 @@ const officeDiet = {
 
 const glutenFreeDiet = {
   name: "Gluten Free",
-  imgUrl: "gluten-free.jpg",
+  imgUrl: "gluten-free.webp",
   protein: 20,
   fats: 25,
   carbo: 55,
@@ -135,7 +135,7 @@ const glutenFreeDiet = {
 
 const lowCarbDiet = {
   name: "Low Carb",
-  imgUrl: "low-carb.jpg",
+  imgUrl: "low-carb.webp",
   protein: 20,
   fats: 60,
   carbo: 20,
@@ -148,7 +148,7 @@ const lowCarbDiet = {
 
 const lactoseFreeDiet = {
   name: "Lactose Free",
-  imgUrl: "lactose-free.jpg",
+  imgUrl: "lactose-free.webp",
   protein: 20,
   fats: 25,
   carbo: 55,
@@ -257,7 +257,6 @@ const heroSection = document.querySelector(".section-hero");
 const obs = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
-    // console.log(ent);
 
     if (!ent.isIntersecting) {
       document.body.classList.add("sticky");

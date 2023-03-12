@@ -1,6 +1,16 @@
 /* MEDIA QUERIES - RESPONSIVE WEBSITE  */
 
 /**************************/
+/* ABOVE 1800px (Smaller desktops) */
+/**************************/
+
+@media (min-width: 1800px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/**************************/
 /* BELOW 1260px (Smaller desktops) */
 /**************************/
 

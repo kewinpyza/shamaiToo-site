@@ -45,7 +45,7 @@
       rgba(253, 197, 118, 0.4),
       rgba(209, 118, 0, 0.4)
     ),
-    url(../images/woman-eating.jpg);
+    url(../images/woman-eating.webp);
   background-size: cover;
   background-position: center;
   border-top-right-radius: 1.6rem;

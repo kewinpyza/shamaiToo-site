@@ -5,7 +5,7 @@
       rgba(47, 47, 47, 0.65),
       rgba(47, 47, 47, 0.75)
     ),
-    url(../images/hero.jpg);
+    url(../images/hero.webp);
   background-size: cover;
   overflow: hidden;
 }
